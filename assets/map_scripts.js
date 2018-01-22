@@ -107,6 +107,7 @@ function processData(fetchedData) {
       // markerNode.bindPopup(title);
       // group the layers by data source
       var targetLayer = marker.feature.properties['target-layer'];
+      targetLayer = 'markerClustersEBI';
       if (markerClustersTemporary[targetLayer] == undefined) { markerClustersTemporary[targetLayer] = []; }
       markerClustersTemporary[targetLayer].push(markerNode);
     }
@@ -136,6 +137,8 @@ function removeAndAddNodes(targetClusterGroup,queueToAdd) {
         return false; // exit if the location didn't geocode
       }
 
+      // console.log('process',nodeToProcess);
+
       // add dot to map
       targetClusterGroup.addLayer(nodeToProcess);
       // Performance note:
@@ -151,7 +154,7 @@ function removeAndAddNodes(targetClusterGroup,queueToAdd) {
   }
 
   // run the queue
-  var addNodesVar = window.setInterval(addNodes, lifeSpan / queueToAdd.length+1);
+  var addNodesVar = window.setInterval(addNodes, 10);
 }
 
 function scheduledNodeRemoval(targetClusterGroup,targetNode) {
@@ -174,11 +177,17 @@ function runClusters() {
 
   $.ajax({
     type: "GET",
-    url: 'assets/sample_data.json',
-    dataType: "json",
+    url: 'assets/sample_data.kml',
+    dataType: "text",
     timeout:3000,
     success: function(data, textStatus, request) {
-      console.log(data)
+
+      // fake it til you make it
+      // Curerntly we can't get "real" KML out, so we tweak some things...
+      var re = /<Point>/gi;
+      data = data.replace(re, '<Point><coordinates>');
+      re = /<\/Point>/gi;
+      data = data.replace(re, '</coordinates></Point>');
 
       // inch closer to actual time
       window.clearInterval(mainLoop);
@@ -188,7 +197,9 @@ function runClusters() {
         mainLoopPause = false;
       }, 500 );
 
-      parseDate(data);
+      data = omnivore.kml.parse(data);
+      if (debug) console.log(data._layers);
+      processData(data);
     },
     error: function(jqXHR, textStatus){
       if(textStatus === 'timeout') {
@@ -203,10 +214,6 @@ function runClusters() {
     }
   });
 
-  function parseDate(data) {
-    var readyData = omnivore.csv.parse(data, null);
-    processData(readyData);
-  }
 
 }
 
