@@ -1,0 +1,78 @@
+<!--
+
+  The EMBL-EBI Offsite Training Map shows utilisation of the:
+  - EBI Services
+  - Portal pages
+  - Uniprot
+
+  The canonical URL is: http://www.ebi.ac.uk/web/livemap
+
+  To show on a website, embed with this iframe code:
+  <iframe id="ebiTrafficMap"
+      name="ebiTrafficMap"
+      title="ebiTrafficMap"
+      width="500"
+      height="500"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      style="width: 100%"
+      src="//www.ebi.ac.uk/web/livemap/live-data-map.html">
+  </iframe>
+
+  You can request the map to display various legends with "?legend=", that is:
+  - uniprot: live-data-map.html?legend=uniprot
+  - portals: live-data-map.html?legend=portals
+  - ebi: live-data-map.html?legend=ebi
+  - show all as unqiue colours: live-data-map.html?legend=distinct
+  - disable the legend: live-data-map.html?hideLegend=true
+
+  You can throttle this for older devices with "?slimClient=true",
+  this will reduce the update frequency and trim some display options.
+
+  The map and its asset URLs are subject to change, so please do not directly code the map into your web page.
+
+  Updates:
+   - 2018-01-22: Initial development and porting from https://github.com/ebiwd/EMBL-EBI-Live-data-map
+
+  Please post feedback on GitHub to https://github.com/ebiwd/EMBL-EBI-Live-data-map or to www-dev@ebi.ac.uk
+
+ -->
+
+<!DOCTYPE html>
+<html class="fontface">
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css' rel='stylesheet' />
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css' rel='stylesheet' />
+  <link rel="stylesheet" href="https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.2/fonts.css" />
+  <link rel="stylesheet" href="assets/map_styles.css" />
+</head>
+
+<body class="display-unified display-ebi display-uniprot display-portals">
+  <div id="map"></div>
+
+  <div id="legend" class="legend modal"></div>
+
+  <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+  <script src="//www.ebi.ac.uk/sites/ebi.ac.uk/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js'></script>
+  <!-- https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/leaflet.markercluster.js -->
+  <script type="text/javascript" src="//rawgithub.com/joergdietrich/Leaflet.Terminator/master/L.Terminator.js"></script>
+  <script type="text/javascript" src="assets/map_scripts.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('set', 'anonymizeIp', true);
+    ga('create', 'UA-629242-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+</html>

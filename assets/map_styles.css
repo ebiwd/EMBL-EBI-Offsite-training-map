@@ -1,0 +1,81 @@
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:100%; }
+.daynightoverlay { opacity: .1 }
+.leaflet-div-icon { background: none; border: none; }
+.leaflet-marker-icon  { text-align: center; }
+
+.leaflet-marker-icon div { height: 100%; }
+
+.leaflet-marker-icon div.big-cluster { font-size: 35px; }
+.leaflet-marker-icon div.big-cluster:hover { color: #fff; }
+
+.leaflet-marker-icon div { color: rgba(0,0,0,.4); mix-blend-mode: multiply; }
+
+/* all markers should be hidden unless requested */
+body .leaflet-marker-icon div.markerClustersPortals,
+body .leaflet-marker-icon div.markerClustersUniprot,
+body .leaflet-marker-icon div.markerClustersEBI { display:none; }
+
+
+body.display-ebi .leaflet-marker-icon div.markerClustersEBI { display: block; background: rgba(168,200,19,.4); }
+
+body.display-portals .leaflet-marker-icon div.markerClustersPortals { display: block; background: rgba(235,98,9,.4); }
+.leaflet-marker-icon div.markerClustersPortals:hover { background: rgba(235,98,9,1); color: #fff; }
+
+body.display-uniprot .leaflet-marker-icon div.markerClustersUniprot { display: block; background: rgba(29,92,116,.4); }
+.leaflet-marker-icon div.markerClustersUniprot:hover { background: rgba(29,92,116,1); color: #fff; }
+
+body .legend div.markerClustersPortals .legend-icon { background-color: rgba(235,98,9,.4); }
+body .legend div.markerClustersUniprot .legend-icon { background-color: rgba(29,92,116,.4); }
+body .legend div.markerClustersEBI .legend-icon { background-color: rgba(168,200,19,.4); }
+
+/* unified colours for markers */
+body.display-unified .leaflet-marker-icon div.markerClustersPortals,
+body.display-unified .leaflet-marker-icon div.markerClustersUniprot,
+.leaflet-marker-icon div.markerClustersEBI { background: rgba(168,200,19,.4); }
+body.display-unified .leaflet-marker-icon div.markerClustersPortals:hover,
+body.display-unified .leaflet-marker-icon div.markerClustersUniprot:hover,
+.leaflet-marker-icon div.markerClustersEBI:hover { background: rgba(168,200,19,1); color: #fff; }
+
+body.display-unified .legend div.markerClustersPortals .legend-icon,
+body.display-unified .legend div.markerClustersUniprot .legend-icon { background-color: rgba(168,200,19,.4); }
+
+
+
+.modal {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  position: absolute;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.10);
+  z-index: 1;
+}
+
+.modal h4 { margin: 0 0 5px; }
+
+.message {
+  bottom: 40%;
+  font: 18px/30px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  right: 30%;
+  min-width: 40%;
+  min-height: 20%;
+}
+
+.legend {
+  bottom: 30px;
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  right: 10px;
+}
+
+
+.legend div span {
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin-right: 5px;
+  width: 10px;
+}
+
+
+.legend a { text-decoration: none; color: #666; }
+.legend a .icon { padding-right: 1px; }
