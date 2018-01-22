@@ -169,15 +169,6 @@ function scheduledNodeRemoval(targetClusterGroup,targetNode) {
 function runClusters() {
   if (debug) { console.log(window.performance.memory); }
 
-  // do we need to refresh the page
-  // check if it's 1 in the morning and the page has been up for at least 1 hour
-  var date = new Date(),
-      current_hour = date.getHours(),
-      reboot_hour = 1;
-  if ((current_hour === reboot_hour) && ((Date.now() - loadTimestamp) > 60*60*1000)) {
-    location.reload(false) // false = reload from cache
-  }
-
   // are we paused?
   if (mainLoopPause === true) return;
 
@@ -234,7 +225,6 @@ map.addLayer(markerClustersPortals);
 map.addLayer(markerClustersUniprot);
 
 var lifeSpan = 600000; // how quickly we fetch data, and how long each dot lasts
-if (debug) { console.log('Data track loop is', lifeSpan); }
 var mainLoopPause = false; // functionality for a "pause button"
 var mainLoop = window.setInterval(runClusters, lifeSpan); // schedule future updates
 
