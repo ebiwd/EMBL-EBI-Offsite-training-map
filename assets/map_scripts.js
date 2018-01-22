@@ -19,17 +19,11 @@ if ((passedParamLegend != 'false') && (passedParamLegend != undefined)) {
   passedParamLegend = passedParamLegend.split('&')[0]; // drop anything after &
   $('.legend.modal').hide();
 }
-// throttle the display for older devices (like the south building monoliths)
-var passedParamSlimClient = location.search.split('slimClient=')[1];
-if ((passedParamSlimClient != undefined)) {
-  // passedParamSlimClient = passedParamSlimClient.split('&')[0]; // drop anything after &
-  var lifeSpan = 24000;
-}
+
 // debug metrics
 var debug = false;
 var passedParamDebugMetrics = location.search.split('debug=')[1];
 if ((passedParamDebugMetrics != 'false') && (passedParamDebugMetrics != undefined)) {
-  // passedParamDebugMetrics = passedParamSlimClient.split('&')[0]; // drop anything after &
   debug = true;
 }
 
@@ -187,42 +181,23 @@ function runClusters() {
   // are we paused?
   if (mainLoopPause === true) return;
 
-  // we just ask the server and it will return all desired data sets
-  $('.data-freshness').fadeTo( "fast", 0.5 );
-
   $.ajax({
     type: "GET",
-    url: 'parseLogMap.php?file=all&cachebust='+Math.floor((Math.random() * 1000) + 1),
-    dataType: "text",
+    url: 'assets/sample_data.json',
+    dataType: "json",
     timeout:3000,
     success: function(data, textStatus, request) {
-      // compare the cache file time to request server time and if it's out of step, take steps to align with "Fresh" server time
-      var offset = 0;
-      if (request.getResponseHeader('Map-cache-creation') > 0) {
-        offset = request.getResponseHeader('Map-cache-server-time') - request.getResponseHeader('Map-cache-creation');
-      }
-      if (offset === 0) {
-        // tell user map is fresh, but wait for old dots to sync up first
-        setTimeout(function() {
-          if (passedParamSlimClient == undefined) {
-            $('.leaflet-control-attribution .data-freshness').html('Map is fresh ');
-          }
-        }, lifeSpan - 500 );
-      } else {
-        // inch closer to actual time
-        window.clearInterval(mainLoop);
-        mainLoopPause = true;
-        setTimeout(function() {
-          mainLoop = window.setInterval(runClusters, lifeSpan); // schedule future updates
-          mainLoopPause = false;
-        }, 500 );
+      console.log(data)
 
-        if (passedParamSlimClient == undefined) {
-          $('.leaflet-control-attribution .data-freshness').html('Data is ' + offset + ' seconds stale ... compensating. ');
-        }
+      // inch closer to actual time
+      window.clearInterval(mainLoop);
+      mainLoopPause = true;
+      setTimeout(function() {
+        mainLoop = window.setInterval(runClusters, lifeSpan); // schedule future updates
+        mainLoopPause = false;
+      }, 500 );
 
-      }
-      parseDate(data,offset);
+      parseDate(data);
     },
     error: function(jqXHR, textStatus){
       if(textStatus === 'timeout') {
@@ -240,7 +215,6 @@ function runClusters() {
   function parseDate(data) {
     var readyData = omnivore.csv.parse(data, null);
     processData(readyData);
-    $('.data-freshness').fadeTo( "fast", 1 );
   }
 
 }
@@ -259,13 +233,11 @@ map.addLayer(markerClustersEBI);
 map.addLayer(markerClustersPortals);
 map.addLayer(markerClustersUniprot);
 
-var lifeSpan = lifeSpan || 6000; // how quickly we fetch data, and how long each dot lasts
+var lifeSpan = 600000; // how quickly we fetch data, and how long each dot lasts
 if (debug) { console.log('Data track loop is', lifeSpan); }
 var mainLoopPause = false; // functionality for a "pause button"
 var mainLoop = window.setInterval(runClusters, lifeSpan); // schedule future updates
 
-// add a holder for data freshness
-$('.leaflet-control-attribution').prepend('<span class="data-freshness"></span> ');
 
 // run the data pull immediately on strap
 runClusters();
