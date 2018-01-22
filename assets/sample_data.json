@@ -1,0 +1,1691 @@
+{
+  "nodes": {
+    "node": [
+      {
+        "title": "Plant and Pathogen Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-11-14 00:00:00 to 2017-11-16 00:00:00"
+      },
+      {
+        "title": "Genomics for working with pathogens (Brazil)",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">entro de Pesquisas René Rachou – Fundação Oswaldo Cruz</div><div class=\"premise\">Av. Augusto de Lima, 1715</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Belo Horizonte</div> <div class=\"postal-code\">MG, 30190-002</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "-19.922474300000",
+        "long": "-43.946580900000",
+        "dates": "2014-05-26 00:00:00 to 2014-05-29 00:00:00"
+      },
+      {
+        "title": "Mosquito Informatics (INFRAVEC)",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-02-05 00:00:00 to 2014-02-06 00:00:00"
+      },
+      {
+        "title": "Agricultural-Omics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-02-17 00:00:00 to 2014-02-21 00:00:00"
+      },
+      {
+        "title": "EMBL-EBI: Introduction to EMBL-EBI Resources",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-10-26 09:30:00 to 2015-10-26 13:00:00"
+      },
+      {
+        "title": "Network Analysis with Cytoscape and PSICQUIC",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-11-18 09:30:00 to 2015-11-18 17:00:00"
+      },
+      {
+        "title": "Interactions & Pathways - IntAct",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2018-10-30 09:30:00 to 2018-10-30 13:00:00"
+      },
+      {
+        "title": "Bioinformatics Workshop, Campinas, Brazil, 2015",
+        "address": "<div class=\"addressfield-container-inline\"><span class=\"thoroughfare\">UniCamp</span></div><div class=\"addressfield-container-inline locality-block country-BR\"><span class=\"locality\">Barão Geraldo, Campinas</span> -  <span class=\"state\">SP</span><div class=\"clearfix\"></div> <div class=\"postal-code\">13083-970</div></div><span class=\"country\">Brazil</span>",
+        "lat": "-22.812712500000",
+        "long": "-47.067540400000",
+        "dates": "2015-08-03 00:00:00 to 2015-08-05 00:00:00"
+      },
+      {
+        "title": "Proteomics Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-12-04 00:00:00 to 2016-12-09 00:00:00"
+      },
+      {
+        "title": "Bioinformatics Workshop, University of São Paulo, Brazil, 2015",
+        "address": "<div class=\"addressfield-container-inline\"><span class=\"thoroughfare\">University of São Paulo</span></div><div class=\"addressfield-container-inline locality-block country-BR\"><span class=\"locality\">Piracicaba</span> -  <span class=\"state\">SP</span><div class=\"clearfix\"></div> <div class=\"postal-code\">3091-3116</div></div><span class=\"country\">Brazil</span>",
+        "dates": "2015-07-29 00:00:00 to 2015-07-31 00:00:00"
+      },
+      {
+        "title": "Bioinformatics of Plants and Plant Pathogens 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-05-23 09:45:00 to 2016-05-25 12:30:00"
+      },
+      {
+        "title": "Summer School in Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-06-13 00:00:00 to 2016-06-17 00:00:00"
+      },
+      {
+        "title": "Bioinformatics for Principal Investigators",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-06-07 00:00:00 to 2016-06-09 12:00:00"
+      },
+      {
+        "title": "EMBO Practical Course on Metabolomics Bioinformatics for Life Scientists",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-02-14 00:00:00 to 2016-02-19 00:00:00"
+      },
+      {
+        "title": "Online database resources for non-coding RNA",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-06-17 09:00:00"
+      },
+      {
+        "title": "Metabolomics and Bioinformatics for nutritionists",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">The Nutrition Society</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">London</div> <div class=\"postal-code\">W6 7NJ</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "51.495307400000",
+        "long": "-0.224569200000",
+        "dates": "2015-06-09 00:00:00"
+      },
+      {
+        "title": "Bioinformatics: Exploring Protein Sequence and Functional Information with UniProt ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-01-28 00:00:00"
+      },
+      {
+        "title": "ODW – Human and Vertebrate Genomics: Bioinformatics Tools and Resources",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-05-11 08:30:00 to 2015-05-13 17:00:00"
+      },
+      {
+        "title": "Bioinformatics: Using the Ensembl Genome Browser ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-03-23 00:00:00"
+      },
+      {
+        "title": "Exploring Plant Variation Data ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-07-01 00:00:00 to 2015-07-03 00:00:00"
+      },
+      {
+        "title": "Bioinformatics: Network Analysis - Cytoscape and PSICQUIC",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-03-16 00:00:00"
+      },
+      {
+        "title": "Bioinformatics: Introduction to Metabolomics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-05-20 00:00:00"
+      },
+      {
+        "title": "Bioinformatics: EMBL-EBI - An Introduction to Sequence Searching ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-11-10 00:00:00"
+      },
+      {
+        "title": "Biological Interpretation of Next Generation Sequencing",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-03-23 00:00:00 to 2015-03-27 00:00:00"
+      },
+      {
+        "title": "Bioinformatics Workshop: Metabolomics Databases and Tools",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-10-30 00:00:00"
+      },
+      {
+        "title": "NTNU Trondheim Workshop 2014",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Høgskoleringen 1</div></div><div class=\"addressfield-container-inline locality-block country-NO\"><span class=\"postal-code\">7491</span> <span class=\"locality\">Trondheim</span></div><span class=\"country\">Norway</span>",
+        "lat": "63.419504300000",
+        "long": "10.401924700000",
+        "dates": "2014-11-11 00:00:00 to 2014-11-13 00:00:00"
+      },
+      {
+        "title": "Introduction to EBI resources - QMUL, October 14",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Queen Mary University of London</div><div class=\"premise\">Mile End Rd</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">London</div> <div class=\"postal-code\">E1 4NS</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "51.516940900000",
+        "long": "-0.059102200000",
+        "dates": "2014-10-28 00:00:00"
+      },
+      {
+        "title": "Bioinformatics: EMBL-EBI - Protein Databases and Tools",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-10-07 00:00:00"
+      },
+      {
+        "title": "Interactions & Pathways - Reactome",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-10-22 00:00:00"
+      },
+      {
+        "title": "The Bioinformatics Workshop, Prague",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Computer study hall (03 on 4NP)</div><div class=\"premise\">National Technical Library</div></div><div class=\"addressfield-container-inline locality-block country-CZ\"><span class=\"postal-code\">5, 110 01 Praha 1</span> <span class=\"locality\">Prague</span></div><span class=\"country\">Czech Republic</span>",
+        "lat": "50.087833400000",
+        "long": "14.421048900000",
+        "dates": "2014-06-02 00:00:00 to 2014-06-04 00:00:00"
+      },
+      {
+        "title": "Introduction to EBI Resources - Cambridge University UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-10-06 00:00:00"
+      },
+      {
+        "title": "Argentinian Bioinformatics Workshop, 2014",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Avenue 25 de Mayo y Francia</div></div><div class=\"addressfield-container-inline locality-block country-AR\"><span class=\"postal-code\">1650</span> <span class=\"locality\">San Martin</span> <span class=\"state\">Ciudad de Buenos Aires</span></div><span class=\"country\">Argentina</span>",
+        "lat": "-34.579688000000",
+        "long": "-58.526752400000",
+        "dates": "2014-09-30 00:00:00 to 2014-10-01 00:00:00"
+      },
+      {
+        "title": "Structural Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-10-12 12:00:00 to 2015-10-16 16:30:00"
+      },
+      {
+        "title": "EMBL-EBI Bioinformatics Workshop, Portugal ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Campus Universitário de Santiago</div></div><div class=\"addressfield-container-inline locality-block country-PT\"><span class=\"postal-code\">3810-193</span> <span class=\"locality\">Aveiro</span></div><span class=\"country\">Portugal</span>",
+        "lat": "40.640505500000",
+        "long": "-8.653753900000",
+        "dates": "2014-07-21 00:00:00 to 2014-07-23 00:00:00"
+      },
+      {
+        "title": "SME Bioinformatics Forum, Hinxton 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-03-09 09:15:00 to 2015-03-10 13:00:00"
+      },
+      {
+        "title": "Resources for Computational Drug Discovery",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-11-02 00:00:00 to 2015-11-06 00:00:00"
+      },
+      {
+        "title": "EMBO Practical Course on Metabolomics Bioinformatics for Life Scientists",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-02-16 00:00:00 to 2015-02-20 00:00:00"
+      },
+      {
+        "title": "Joint EMBL-EBI/Wellcome Trust Summer School in Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-06-22 00:00:00 to 2015-06-26 00:00:00"
+      },
+      {
+        "title": "NGS data CRAMing, Archiving & Exploring",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-04-02 00:00:00"
+      },
+      {
+        "title": "Interactions & Pathways - IntAct - Cambridge, UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-01-23 00:00:00"
+      },
+      {
+        "title": "Animal Genome Informatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-09-29 00:00:00 to 2014-10-03 00:00:00"
+      },
+      {
+        "title": "Network Analysis - Cytoscape and PSICQUIC - Cambridge, UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-01-27 00:00:00"
+      },
+      {
+        "title": "Interactions & Pathways - Reactome - Cambridge, UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-01-24 00:00:00"
+      },
+      {
+        "title": "Introduction to EBI Resources - Cambridge, UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-01-22 00:00:00"
+      },
+      {
+        "title": "Introduction to EBI Resources - Cambridge University, UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-02-14 00:00:00"
+      },
+      {
+        "title": "Bringing Structure to Biology - Protein Structures and Tools - Cambridge, UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-02-17 00:00:00"
+      },
+      {
+        "title": "Introduction to sequence searching with EMBL-EBI - Cambridge, UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-01-28 00:00:00"
+      },
+      {
+        "title": "EMBL-EBI Bioinformatics Workshop (Girona, Spain)",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Plaça de Sant Domènec</div><div class=\"premise\">3</div></div><div class=\"addressfield-container-inline locality-block country-ES\"><span class=\"postal-code\">17004</span> <span class=\"locality\">Girona</span> <span class=\"state\">Girona</span></div><span class=\"country\">Spain</span>",
+        "lat": "41.986008200000",
+        "long": "2.827307500000",
+        "dates": "2014-07-01 00:00:00"
+      },
+      {
+        "title": "ChEBI 3rd User Workshop: Harnessing ChEBI for systems biology and metabolic modelling",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-03-25 00:00:00 to 2014-03-26 00:00:00"
+      },
+      {
+        "title": "The Bioinformatics Workshop - Pavia",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">via Ferrata 1</div></div><div class=\"addressfield-container-inline locality-block country-IT\"><span class=\"postal-code\">27100</span> <span class=\"locality\">Pavia</span> <span class=\"state\">PV</span></div><span class=\"country\">Italy</span>",
+        "lat": "45.202701200000",
+        "long": "9.133614000000",
+        "dates": "2014-02-04 00:00:00 to 2014-02-05 00:00:00"
+      },
+      {
+        "title": "Joint EMBL-EBI/Wellcome Trust Course: Proteomics Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-11-10 00:00:00 to 2014-11-14 00:00:00"
+      },
+      {
+        "title": "Joint EMBL-EBI/Wellcome Trust Summer School in Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-06-23 00:00:00 to 2014-06-27 00:00:00"
+      },
+      {
+        "title": "SME Bioinformatics Forum",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-03-06 00:00:00"
+      },
+      {
+        "title": "EMBO Practical Course on Computational Structural Biology - from data to structure to function",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-04-07 00:00:00 to 2014-04-11 00:00:00"
+      },
+      {
+        "title": "EMBO Practical Course on Metabolomics Bioinformatics for Life Scientists",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-03-17 00:00:00 to 2014-03-21 00:00:00"
+      },
+      {
+        "title": "Biological Interpretation of Next-Generation Sequencing Data",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2013-12-02 00:00:00 to 2013-12-06 00:00:00"
+      },
+      {
+        "title": "Exploring biological sequence data",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-11-01 09:15:00 to 2016-11-03 17:00:00"
+      },
+      {
+        "title": "Bioinformatics for Principal Investigators",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-09-12 14:00:00 to 2017-09-14 14:00:00"
+      },
+      {
+        "title": "Bioinformatics resources for protein biology",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-02-09 09:15:00 to 2016-02-11 00:15:00"
+      },
+      {
+        "title": "Bioinformatics resources for biomedical researchers",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-04-25 09:30:00 to 2016-04-26 17:00:00"
+      },
+      {
+        "title": "EMBL-EBI bioinformatics workshop, Helsinki 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Yliopistonkatu 4</div></div><div class=\"addressfield-container-inline locality-block country-FI\"><span class=\"postal-code\">00100</span> <span class=\"locality\">Helsinki</span></div><span class=\"country\">Finland</span>",
+        "lat": "60.169787100000",
+        "long": "24.948775900000",
+        "dates": "2015-12-01 09:00:00 to 2015-12-02 17:30:00"
+      },
+      {
+        "title": "Interactions & Pathways - Reactome",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-09-15 09:30:00 to 2015-09-15 13:00:00"
+      },
+      {
+        "title": "Interactions & Pathways - Reactome ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-11-03 09:30:00 to 2015-11-03 13:00:00"
+      },
+      {
+        "title": "An Introduction to Sequence Searching ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-11-03 14:00:00 to 2015-11-03 17:30:00"
+      },
+      {
+        "title": "EMBL-EBI Resources workshop, Malta 2017",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Department of Applied Biomedical Sciences</div><div class=\"premise\">University of Malta</div></div><div class=\"addressfield-container-inline locality-block country-MT\"><span class=\"locality\">Msida</span> <span class=\"postal-code\">MDS2080</span></div><span class=\"country\">Malta</span>",
+        "dates": "2017-02-02 09:00:00 to 2017-02-03 17:00:00"
+      },
+      {
+        "title": "Service Provision - RItrain Staff Exchange",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2018-05-02 13:00:00 to 2018-05-05 13:00:00"
+      },
+      {
+        "title": "Ensembl and Ensembl Genomes @ PAG",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">500 Hotel Circle North</div></div><div class=\"addressfield-container-inline locality-block country-US\"><span class=\"locality\">San Diego</span>, <span class=\"state\">CA</span> <span class=\"postal-code\">92108</span></div><span class=\"country\">United States</span>",
+        "lat": "32.763272200000",
+        "long": "-117.167970900000",
+        "dates": "2017-01-15 08:00:00"
+      },
+      {
+        "title": "Ensembl Bite-Sized November 2017",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-11-29 12:00:00"
+      },
+      {
+        "title": "Ensembl Bite-Sized September 2017",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-09-20 12:00:00"
+      },
+      {
+        "title": "Ensembl Bite-Sized May 2017",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-05-24 12:00:00"
+      },
+      {
+        "title": "Ensembl Bite-Sized February 2017",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-02-08 12:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop- University of Nottingham - 23rd-24th January 2017",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University Park</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Nottingham</div> <div class=\"postal-code\">NG7 2RD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.938797700000",
+        "long": "-1.203307500000",
+        "dates": "2017-01-23 09:30:00 to 2017-01-24 17:00:00"
+      },
+      {
+        "title": "EMBL-EBI: Transcriptomics Data and Tools",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2017-02-14 09:30:00 to 2017-02-14 13:00:00"
+      },
+      {
+        "title": "EMBL-EBI: Introduction to ontologies",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2017-01-27 14:00:00 to 2017-01-27 17:30:00"
+      },
+      {
+        "title": "EMBL-EBI: Introduction to EMBL-EBI resources",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2017-01-23 09:30:00 to 2017-01-23 13:00:00"
+      },
+      {
+        "title": "EMBL-EBI: Introduction to Chemogenomics Resources ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2017-02-06 09:30:00 to 2017-02-06 12:30:00"
+      },
+      {
+        "title": "EMBL-EBI: Interactions & Pathways - Reactome ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2017-02-28 09:00:00 to 2017-02-28 11:45:00"
+      },
+      {
+        "title": "Interactions & Pathways - IntAct",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2018-02-03 14:00:00 to 2018-02-03 17:30:00"
+      },
+      {
+        "title": "EMBL-EBI: Exploring genetic variation data",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2017-02-16 09:00:00 to 2017-02-16 17:00:00"
+      },
+      {
+        "title": "EMBL-EBI: An Introduction to Sequence Searching",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2017-02-02 14:00:00 to 2017-02-02 17:30:00"
+      },
+      {
+        "title": "Metabolomics blablabla",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-10-30 15:15:00 to 2017-10-31 15:15:00"
+      },
+      {
+        "title": "Plants and Plant Pathogens",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-11-13 15:00:00 to 2017-11-17 15:00:00"
+      },
+      {
+        "title": "Networks and Pathways",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-05-09 00:00:00 to 2016-05-13 00:00:00"
+      },
+      {
+        "title": "Introduction to Next Generation Sequencing ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-03-03 00:00:00 to 2014-03-06 00:00:00"
+      },
+      {
+        "title": "Advanced RNA-Seq and ChiP-Seq Data Analysis ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-05-11 08:15:00 to 2015-05-14 16:00:00"
+      },
+      {
+        "title": "Introduction to Next Generation Sequencing ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-10-28 00:00:00 to 2014-10-31 00:00:00"
+      },
+      {
+        "title": "Introduction to Next Generation Sequencing (April)",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-04-04 00:00:00 to 2016-04-07 00:00:00"
+      },
+      {
+        "title": "Introduction to Integrative Omics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-03-07 00:00:00 to 2016-03-10 00:00:00"
+      },
+      {
+        "title": "Metagenomics Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-09-08 00:00:00 to 2014-09-10 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop - Roslin July 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">The Roslin Institute</div><div class=\"premise\">The University of Edinburgh</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Easter Bush</div><div class=\"state\">Midlothian</div> <div class=\"postal-code\">EH25 9RG</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "55.865408000000",
+        "long": "-3.199695600000",
+        "dates": "2015-07-07 00:00:00"
+      },
+      {
+        "title": "Networks and Pathways",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-06-09 00:00:00 to 2014-06-13 00:00:00"
+      },
+      {
+        "title": "Introduction to EMBL-EBI Data Resources",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-06-05 00:00:00"
+      },
+      {
+        "title": "Advanced RNA-Seq and ChiP-Seq Data Analysis Course",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-05-12 00:00:00 to 2015-05-15 00:00:00"
+      },
+      {
+        "title": "Micro B3 Marine Metagenomics Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-03-24 00:00:00 to 2014-03-28 00:00:00"
+      },
+      {
+        "title": "Joint EMBL-EBI Wellcome Trust Advanced Course on Computational Molecular Evolution",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-04-13 00:00:00 to 2015-04-24 00:00:00"
+      },
+      {
+        "title": "RNA-Seq and ChiP-Seq Data Analysis Course - Campinas, Brazil - 07-10 April 2014 ",
+        "address": "<div class=\"addressfield-container-inline\"><span class=\"thoroughfare\">R. Tessália Vieira de Camargo</span></div><div class=\"addressfield-container-inline locality-block country-BR\"><span class=\"locality\">Campinas</span> -  <span class=\"state\">SP</span><div class=\"clearfix\"></div> <div class=\"postal-code\">13083-887</div></div><span class=\"country\">Brazil</span>",
+        "lat": "-22.831044100000",
+        "long": "-47.062295900000",
+        "dates": "2014-04-07 00:00:00 to 2014-04-10 00:00:00"
+      },
+      {
+        "title": "EMBO Practical Course on Genotype to Phenotype Mapping of Complex Traits ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-07-28 00:00:00 to 2014-08-01 00:00:00"
+      },
+      {
+        "title": "Symposium on Systems Biology of Neurodegenerative Diseases, sponsored by AgedBrainSYSBIO ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-11-06 00:00:00"
+      },
+      {
+        "title": "EMBO Practical Course on Computational Molecular Evolution (Heraklion, Greece)",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">HCMR</div></div><div class=\"addressfield-container-inline locality-block country-GR\"><span class=\"postal-code\">46,7 km, 19013</span> <span class=\"locality\">Heraklion</span></div><span class=\"country\">Greece</span>",
+        "lat": "39.840094100000",
+        "long": "-75.370366200000",
+        "dates": "2014-05-05 00:00:00 to 2014-05-14 00:00:00"
+      },
+      {
+        "title": "Genomics Workshop at Avian Models Systems - CSHL, USA",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Grace Auditorium</div><div class=\"premise\">Cold Spring Harbor Laboratory</div></div><div class=\"addressfield-container-inline locality-block country-US\"><span class=\"locality\">New York</span>, <span class=\"state\">NY</span> <span class=\"postal-code\">NY 11724-2213</span></div><span class=\"country\">United States</span>",
+        "lat": "40.860166900000",
+        "long": "-73.447485500000",
+        "dates": "2014-03-04 00:00:00"
+      },
+      {
+        "title": "Introduction to Next Generation Sequencing (October)",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-10-03 00:00:00 to 2016-10-06 00:00:00"
+      },
+      {
+        "title": "Metagenomics Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-10-18 00:00:00 to 2016-10-20 00:00:00"
+      },
+      {
+        "title": "Microarray Analysis using R and Bioconductor - Maastricht, Netherlands",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Minderbroedersberg 4-6</div></div><div class=\"addressfield-container-inline locality-block country-NL\"><span class=\"postal-code\">6211 LK</span> <span class=\"locality\">Maastricht</span></div><span class=\"country\">Netherlands</span>",
+        "lat": "50.847165000000",
+        "long": "5.686193500000",
+        "dates": "2014-01-28 00:00:00 to 2014-01-30 00:00:00"
+      },
+      {
+        "title": "In Silico Systems Biology",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-07-03 00:00:00 to 2016-07-08 00:00:00"
+      },
+      {
+        "title": "BioMedBridges: Knowledge Exchange Workshop – An introduction to RDF, SPARQL and the EBI RDF Platform",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Charlottenstrasse 42</div></div><div class=\"addressfield-container-inline locality-block country-DE\"><span class=\"postal-code\">10117</span> <span class=\"locality\">Berlin</span></div><span class=\"country\">Germany</span>",
+        "lat": "52.518538300000",
+        "long": "13.390310300000",
+        "dates": "2014-04-29 00:00:00 to 2014-04-30 00:00:00"
+      },
+      {
+        "title": "Cancer Genomics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-06-27 00:00:00 to 2016-07-01 00:00:00"
+      },
+      {
+        "title": "The Systems Biology Modelling Cycle (supported by BioPreDyn)",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-05-12 00:00:00 to 2014-05-15 00:00:00"
+      },
+      {
+        "title": "Functional Interpretation of Toxicogenomic Data",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-04-08 00:00:00 to 2014-04-10 00:00:00"
+      },
+      {
+        "title": "Joint EMBL-EBI-Wellcome Trust Course: In Silico Systems Biology",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-06-07 00:00:00 to 2015-06-12 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshops - UC Denver 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">UC Denver</div><div class=\"premise\">Anschutz Medical Campus</div></div><div class=\"addressfield-container-inline locality-block country-US\"><span class=\"locality\">Denver</span>, <span class=\"state\">CO</span> <span class=\"postal-code\">80045</span></div><span class=\"country\">United States</span>",
+        "lat": "39.750318600000",
+        "long": "-104.836706300000",
+        "dates": "2015-10-14 00:00:00"
+      },
+      {
+        "title": "Introduction to Integrative Omics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-03-03 00:00:00 to 2015-03-06 00:00:00"
+      },
+      {
+        "title": "Introduction to Next Generation Sequencing",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-04-13 00:00:00 to 2015-04-16 00:00:00"
+      },
+      {
+        "title": "diXa Open Meeting - 29-30 September 2014 ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-09-29 00:00:00 to 2014-09-30 00:00:00"
+      },
+      {
+        "title": "EMBL-EBI workshop Bioinformatics for Industry, Brazil",
+        "address": "<div class=\"addressfield-container-inline\"><span class=\"thoroughfare\">Av. Pres. Antônio Carlos</span></div><div class=\"addressfield-container-inline locality-block country-BR\"><div class=\"dependent-locality\">6627 - Pampulha</div><div class=\"clearfix\"></div> <span class=\"locality\">Belo Horizonte</span> -  <span class=\"state\">MG</span><div class=\"clearfix\"></div> <div class=\"postal-code\">31270-901</div></div><span class=\"country\">Brazil</span>",
+        "lat": "-19.878213500000",
+        "long": "-43.952509400000",
+        "dates": "2014-10-31 00:00:00"
+      },
+      {
+        "title": "EU Codefest",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-09-18 00:00:00 to 2014-09-19 00:00:00"
+      },
+      {
+        "title": "Exploring variation in animal genomes (Brazil, 2014)",
+        "address": "<div class=\"addressfield-container-inline\"><span class=\"thoroughfare\">Embrapa Informática Agropecuária</span>, <span class=\"premise\">Cidade Universitária</span></div><div class=\"addressfield-container-inline locality-block country-BR\"><span class=\"locality\">Campinas</span> -  <span class=\"state\">SP</span><div class=\"clearfix\"></div> <div class=\"postal-code\">13083-886</div></div><span class=\"country\">Brazil</span>",
+        "lat": "-22.818137800000",
+        "long": "-47.062556400000",
+        "dates": "2014-11-03 00:00:00 to 2014-11-06 00:00:00"
+      },
+      {
+        "title": "Metagenomics Bioinformatics, Brazil 2014",
+        "address": "<div class=\"addressfield-container-inline\"><span class=\"thoroughfare\">Universidade Católica de Brasília</span>, <span class=\"premise\">Campus Avançado Asa Norte</span></div><div class=\"addressfield-container-inline locality-block country-BR\"><span class=\"locality\">Brasília</span> -  <span class=\"state\">DF</span><div class=\"clearfix\"></div> <div class=\"postal-code\">71966-700</div></div><span class=\"country\">Brazil</span>",
+        "lat": "-15.865818700000",
+        "long": "-48.025373200000",
+        "dates": "2014-11-03 00:00:00 to 2014-11-05 00:00:00"
+      },
+      {
+        "title": "Bioinformatics: EMBL-EBI - Network Analysis - Cytoscape and PSICQUIC",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-12-01 00:00:00"
+      },
+      {
+        "title": "EBI Extreme Java Master training course",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-09-08 00:00:00 to 2014-09-11 00:00:00"
+      },
+      {
+        "title": "Next Generation Sequencing Data Analysis Workshop",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Thycaud PO</div></div><div class=\"addressfield-container-inline locality-block country-IN\"><span class=\"locality\">Thiruvananthapuram</span> <span class=\"state\">Kerala</span> <span class=\"postal-code\">695014</span></div><span class=\"country\">India</span>",
+        "lat": "8.496398400000",
+        "long": "76.961425500000",
+        "dates": "2014-09-16 00:00:00 to 2014-09-19 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop - Erasmus MC - Rotterdam",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Erasmus MC</div><div class=\"premise\">'s-Gravendijkwal 230</div></div><div class=\"addressfield-container-inline locality-block country-NL\"><span class=\"postal-code\">3015 CE</span> <span class=\"locality\">Rotterdam</span></div><span class=\"country\">Netherlands</span>",
+        "lat": "51.911931800000",
+        "long": "4.463803700000",
+        "dates": "2015-01-22 00:00:00"
+      },
+      {
+        "title": "Interactions & Pathways - IntAct - Cambridge, UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-10-20 00:00:00"
+      },
+      {
+        "title": "Bioinformatics Workshop: Small molecule resources with EMBL-EBI - Cambridge, UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-10-10 00:00:00"
+      },
+      {
+        "title": "Metagenomics Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-09-14 00:00:00 to 2015-09-16 00:00:00"
+      },
+      {
+        "title": "Ensembl Plants Browser Workshop - Cambridge University",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-01-26 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – IGMM Edinburgh, Oct 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Institute of Genetics and Molecular Medicine (IGMM)</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Edinburgh</div> <div class=\"postal-code\">EH4 2XU</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "55.962304000000",
+        "long": "-3.234666600000",
+        "dates": "2015-10-20 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshops - DKFZ June 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Im Neuenheimer Feld 280</div></div><div class=\"addressfield-container-inline locality-block country-DE\"><span class=\"postal-code\">69120</span> <span class=\"locality\">Heidelberg</span></div><span class=\"country\">Germany</span>",
+        "lat": "49.414365600000",
+        "long": "8.672633200000",
+        "dates": "2015-06-15 00:00:00"
+      },
+      {
+        "title": "Cancer Genomics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-07-20 12:00:00 to 2015-07-24 17:30:00"
+      },
+      {
+        "title": "Introduction to Next Generation Sequencing ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-09-28 12:00:00 to 2015-10-01 14:00:00"
+      },
+      {
+        "title": "EMBO Practical Course on Analysis of High-Throughput Sequencing Data 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-10-19 08:15:00 to 2015-10-24 13:00:00"
+      },
+      {
+        "title": "Networks and Pathways",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-11-02 00:00:00 to 2015-11-06 00:00:00"
+      },
+      {
+        "title": "Proteomics Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-12-06 00:00:00 to 2015-12-11 00:00:00"
+      },
+      {
+        "title": "Cancer Genomics Workshop ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-06-30 00:00:00 to 2014-07-04 00:00:00"
+      },
+      {
+        "title": "EMBO Practical Course on Analysis of High-Throughput Sequencing Data ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2014-10-20 00:00:00 to 2014-10-25 00:00:00"
+      },
+      {
+        "title": "Data Visualization for Biology: a practical workshop on design, techniques and tools ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">KU Leuven ESAT/STADIUS</div><div class=\"premise\">Kasteelpark Arenberg 10</div></div><div class=\"addressfield-container-inline locality-block country-BE\"><span class=\"postal-code\">3001 Leuven</span> <span class=\"locality\">Leuven</span></div><span class=\"country\">Belgium</span>",
+        "lat": "50.861298600000",
+        "long": "4.680773000000",
+        "dates": "2015-11-23 00:00:00 to 2015-11-27 00:00:00"
+      },
+      {
+        "title": "Micro B3 OSD Analysis Workshop 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-03-09 00:00:00 to 2015-03-13 00:00:00"
+      },
+      {
+        "title": "Bioinformatics: Transcriptomics Data and Tools - Cambridge, UK",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2014-10-17 00:00:00"
+      },
+      {
+        "title": "Addressing the skills gaps in technical operation of biomedical research infrastructures ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-02-17 12:30:00 to 2016-02-18 12:00:00"
+      },
+      {
+        "title": "BioExcel: addressing training needs for advanced simulations in biomolecular research",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-05-03 09:00:00 to 2016-05-04 17:30:00"
+      },
+      {
+        "title": "Ensembl browser workshops – Rothamsted May 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Rothamsted Research</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Harpenden</div> <div class=\"postal-code\">AL5 2JQ</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "51.809567700000",
+        "long": "-0.356322100000",
+        "dates": "2016-05-18 09:00:00 to 2016-05-19 17:00:00"
+      },
+      {
+        "title": "ASHG 2016- Ensembl: hands-on exploring variation data and the VEP",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">999-1055</div><div class=\"premise\">Canada Place</div></div><div class=\"addressfield-container-inline locality-block country-CA\"><span class=\"locality\">Vancouver</span>, <span class=\"state\">BC</span> <span class=\"postal-code\">V6C 0C3</span></div><span class=\"country\">Canada</span>",
+        "lat": "49.289124000000",
+        "long": "-123.116498200000",
+        "dates": "2016-10-20 13:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop, University of Limpopo, 31st May 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University of Limpopo</div></div><div class=\"addressfield-container locality-block country-ZA\"><div class=\"locality\">Polokwane</div> <div class=\"postal-code\">0727</div></div><span class=\"country\">South Africa</span>",
+        "dates": "2016-05-31 09:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop, University of Pretoria, 3rd June 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University of Pretoria</div></div><div class=\"addressfield-container locality-block country-ZA\"><div class=\"dependent-locality\">Hatfield</div><div class=\"clearfix\"></div><div class=\"locality\">Pretoria</div> <div class=\"postal-code\">0028</div></div><span class=\"country\">South Africa</span>",
+        "lat": "-25.755300200000",
+        "long": "28.226565000000",
+        "dates": "2016-06-03 09:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop- University of Cape Town, 6th June 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University of Cape Town</div><div class=\"premise\">Rondebosch</div></div><div class=\"addressfield-container locality-block country-ZA\"><div class=\"locality\">Cape Town</div> <div class=\"postal-code\">7700</div></div><span class=\"country\">South Africa</span>",
+        "lat": "-33.959974900000",
+        "long": "18.458789200000",
+        "dates": "2016-06-06 09:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop- University of the Western Cape, 7th June 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University of the Western Cape</div><div class=\"premise\">Robert Sobukwe Rd</div></div><div class=\"addressfield-container locality-block country-ZA\"><div class=\"dependent-locality\">Bellville</div><div class=\"clearfix\"></div><div class=\"locality\">Cape Town</div> <div class=\"postal-code\">7535</div></div><span class=\"country\">South Africa</span>",
+        "lat": "-33.944884500000",
+        "long": "18.604144100000",
+        "dates": "2016-06-07 09:00:00"
+      },
+      {
+        "title": "CRUK workshop, April 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Li Ka Shing Centre</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 0RE</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.176952200000",
+        "long": "0.135568100000",
+        "dates": "2016-04-19 09:30:00 to 2016-04-19 17:15:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop - Southampton, May 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University Rd</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Southampton</div> <div class=\"postal-code\">SO17 1BJ</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "50.935200600000",
+        "long": "-1.396321300000",
+        "dates": "2016-05-13 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – University College Dublin 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">UCD Agriculture & Food Science Centre</div><div class=\"premise\">University College Dublin</div></div><div class=\"addressfield-container locality-block country-IE\"><div class=\"locality\">Dublin</div></div><span class=\"country\">Ireland</span>",
+        "lat": "53.349805300000",
+        "long": "-6.260309700000",
+        "dates": "2016-06-02 09:30:00 to 2016-06-02 17:00:00"
+      },
+      {
+        "title": "Ensembl: Analysing variation data with the Variant Effect Predictor (VEP)- Helsinki, 14th June 2016 ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Keilaranta 14</div><div class=\"premise\">Espoo</div></div><div class=\"addressfield-container-inline locality-block country-FI\"><span class=\"postal-code\">FI-02101</span> <span class=\"locality\">Helsinki</span></div><span class=\"country\">Finland</span>",
+        "lat": "60.178062100000",
+        "long": "24.832657300000",
+        "dates": "2016-06-14 09:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop, CRG Barcelona, 25th May 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">C/ Dr. Aiguader</div><div class=\"premise\">88 PRBB Building</div></div><div class=\"addressfield-container-inline locality-block country-ES\"><span class=\"postal-code\">08003</span> <span class=\"locality\">Barcelona</span> <span class=\"state\">Barcelona</span></div><span class=\"country\">Spain</span>",
+        "lat": "41.384270100000",
+        "long": "2.185557300000",
+        "dates": "2016-05-25 09:30:00"
+      },
+      {
+        "title": "Bioinformatics resources for biomedical research - part 2",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2016-06-02 09:00:00 to 2016-06-03 17:00:00"
+      },
+      {
+        "title": "EMBO Practical Course on Metabolomics Bioinformatics for Life Scientists",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-02-13 10:00:00 to 2017-02-17 16:00:00"
+      },
+      {
+        "title": "Structural Bioinformatics 2016 ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-09-20 12:00:00 to 2016-09-23 15:30:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – Queen Mary University of London April 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">West Smithfield</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">London</div> <div class=\"postal-code\">EC1A 7BE</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "51.518514000000",
+        "long": "-0.102430900000",
+        "dates": "2016-04-27 09:30:00 to 2016-04-27 17:30:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – Madrid April 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">C/ Melchor Fernández Almagro, 3</div></div><div class=\"addressfield-container-inline locality-block country-ES\"><span class=\"postal-code\">E-28029</span> <span class=\"locality\">Madrid</span> <span class=\"state\">Madrid</span></div><span class=\"country\">Spain</span>",
+        "lat": "40.476367600000",
+        "long": "-3.693993600000",
+        "dates": "2016-04-04 09:30:00 to 2016-04-05 13:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – CRUK Cambridge April 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Li Ka Shing Centre</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 0RE</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.176952200000",
+        "long": "0.135568100000",
+        "dates": "2016-04-18 09:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – Cambridge June 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2016-06-09 13:00:00 to 2016-06-10 13:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop- EMBL-EBI- 5th April 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-04-05 09:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop- Turku, Finland- 26th-27th May 2016 ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University of Turku</div><div class=\"premise\">TURUN YLIOPISTO</div></div><div class=\"addressfield-container-inline locality-block country-FI\"><span class=\"postal-code\">FI-20014</span> <span class=\"locality\">Turku</span></div><span class=\"country\">Finland</span>",
+        "lat": "60.451812600000",
+        "long": "22.266630300000",
+        "dates": "2016-05-26 09:30:00 to 2016-05-27 17:00:00"
+      },
+      {
+        "title": "Ensembl Highlights: accessing genomes",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Linong Street</div><div class=\"premise\">Beitou District</div></div><div class=\"addressfield-container-inline locality-block country-TW\"><span class=\"locality\">Taipei</span> <span class=\"state\">TPE</span> <span class=\"postal-code\">112</span></div><span class=\"country\">Taiwan</span>",
+        "lat": "25.150459900000",
+        "long": "121.519037500000",
+        "dates": "2016-02-25 12:00:00"
+      },
+      {
+        "title": "Ensembl API workshop, Cambridge, June 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2016-06-27 09:30:00 to 2016-06-30 17:30:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – Hinxton Feb 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-02-03 14:15:00 to 2016-02-03 16:30:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop - Plants, TGAC, April 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Norwich Research Park</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Norwich</div> <div class=\"postal-code\">NR4 7UH</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.624732900000",
+        "long": "1.224709400000",
+        "dates": "2016-04-12 09:30:00"
+      },
+      {
+        "title": "Ensembl Browser workshop - Microbes, TGAC, April 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Norwich Research Park</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Norwich</div> <div class=\"postal-code\">NR4 7UH</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.624732900000",
+        "long": "1.224709400000",
+        "dates": "2016-04-13 09:30:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop, University of Witwatersrand, 2nd June 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University of Witwatersrand</div><div class=\"premise\">1 Jan Smuts Ave</div></div><div class=\"addressfield-container locality-block country-ZA\"><div class=\"locality\">Johannesburg</div> <div class=\"postal-code\">2000</div></div><span class=\"country\">South Africa</span>",
+        "lat": "-26.180028900000",
+        "long": "28.043748400000",
+        "dates": "2016-06-02 09:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop- University of Glasgow, UK- 10th May 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University of Glasgow</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Glasgow</div> <div class=\"postal-code\">G12 8QQ</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "55.871510000000",
+        "long": "-4.288761000000",
+        "dates": "2016-05-10 09:00:00"
+      },
+      {
+        "title": "Exploring Genetic Variation",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-06-21 09:00:00 to 2016-06-23 17:00:00"
+      },
+      {
+        "title": "Agrimetrics - Ensembl Workshop – Livestock Genomes",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Craigmillar Park Golf Club</div><div class=\"premise\">1 Observatory Road</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Edinburgh</div> <div class=\"postal-code\">EH9 3HG</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "55.924692100000",
+        "long": "-3.183250800000",
+        "dates": "2016-03-08 09:30:00 to 2016-03-08 17:00:00"
+      },
+      {
+        "title": "Introduction to Omics data integration",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-03-07 08:45:00 to 2017-03-10 16:00:00"
+      },
+      {
+        "title": "Introduction to Next Generation Sequencing (April) 2017",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-04-03 12:00:00 to 2017-04-06 16:00:00"
+      },
+      {
+        "title": "Advanced RNA-Seq and ChiP-Seq Data Analysis",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-04-24 12:00:00 to 2017-04-27 16:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop, CRUK Cambridge Institute, 20th September 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Li Ka Shing Centre</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 0RE</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.176952200000",
+        "long": "0.135568100000",
+        "dates": "2016-09-20 09:00:00"
+      },
+      {
+        "title": "Software faster: From months to minutes",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-09-20 09:00:00 to 2016-09-20 17:00:00"
+      },
+      {
+        "title": "Data Visualisation for Biology: a practical workshop on design, techniques and tools",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-01-30 10:00:00 to 2017-02-03 16:30:00"
+      },
+      {
+        "title": "Bioinformatics for core facility managers",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-06-06 12:00:00 to 2017-06-08 16:45:00"
+      },
+      {
+        "title": "Foundation skills for HPC in computational biomolecular research - BioExcel Summer School",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-07-03 10:00:00 to 2017-07-07 14:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop, UC Denver, 13th October 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">UC Denver</div><div class=\"premise\">Anschutz Medical Campus</div></div><div class=\"addressfield-container-inline locality-block country-US\"><span class=\"locality\">Denver</span>, <span class=\"state\">CO</span> <span class=\"postal-code\">80045</span></div><span class=\"country\">United States</span>",
+        "lat": "39.750318600000",
+        "long": "-104.836706300000",
+        "dates": "2016-10-13 09:00:00"
+      },
+      {
+        "title": "Databases for microRNA and long non-coding RNA biology",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-10-19 14:30:00 to 2016-10-19 17:30:00"
+      },
+      {
+        "title": "X-meeting 2016 - Exploring and Retrieving Genomic Data Using the Ensembl Genome Browser",
+        "address": "<div class=\"addressfield-container-inline\"><span class=\"thoroughfare\">Av. Pres. Antônio Carlos</span>, <span class=\"premise\">6627</span></div><div class=\"addressfield-container-inline locality-block country-BR\"><div class=\"dependent-locality\">Pampulha</div><div class=\"clearfix\"></div> <span class=\"locality\">Belo Horizonte</span> -  <span class=\"state\">MG</span><div class=\"clearfix\"></div> <div class=\"postal-code\">31270-901</div></div><span class=\"country\">Brazil</span>",
+        "lat": "-19.870103200000",
+        "long": "-43.961459200000",
+        "dates": "2016-11-17 08:00:00 to 2016-11-18 09:00:00"
+      },
+      {
+        "title": "Introduction to ChIP-seq Data Analysis and Visualisation using Ensembl",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">The University of Edinburgh</div><div class=\"premise\">Old College</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Edinburgh</div> <div class=\"postal-code\">EH8 9YL</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "55.946836100000",
+        "long": "-3.187058000000",
+        "dates": "2016-11-22 09:00:00 to 2016-11-23 17:00:00"
+      },
+      {
+        "title": "Bioinformatics for discovery",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-03-16 10:00:00 to 2017-03-17 17:00:00"
+      },
+      {
+        "title": "Bioinformatics resources for exploring disease related data",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2016-10-31 09:00:00 to 2016-10-31 17:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Plateia Eleutherias 11,</div></div><div class=\"addressfield-container-inline locality-block country-GR\"><span class=\"postal-code\">71201</span> <span class=\"locality\">Heraklion</span></div><span class=\"country\">Greece</span>",
+        "lat": "35.338397500000",
+        "long": "25.136372400000",
+        "dates": "2016-11-01 11:00:00"
+      },
+      {
+        "title": "Ensembl Genomes Browser Workshop - IPSP-CNR (Bari Unit) - 5th December",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Via Amendola, 122/D</div></div><div class=\"addressfield-container-inline locality-block country-IT\"><span class=\"postal-code\">70126</span> <span class=\"locality\">Bari</span> <span class=\"state\">BA</span></div><span class=\"country\">Italy</span>",
+        "lat": "41.112223400000",
+        "long": "16.882211400000",
+        "dates": "2016-12-05 09:00:00"
+      },
+      {
+        "title": "BioExcel: Workflow Training for Computational Biomolecular Research",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Computer Architechture Dept at Universitat Politecnica de Catalunya</div><div class=\"premise\">c/Jordi Girona, 29</div></div><div class=\"addressfield-container-inline locality-block country-ES\"><span class=\"postal-code\">08034</span> <span class=\"locality\">Barcelona</span> <span class=\"state\">Barcelona</span></div><span class=\"country\">Spain</span>",
+        "lat": "41.394381900000",
+        "long": "2.113115400000",
+        "dates": "2016-10-20 09:00:00 to 2016-10-21 18:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop- EMBL-EBI- 28th September 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-09-28 09:00:00"
+      },
+      {
+        "title": "Computational Molecular Evolution",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-05-08 12:00:00 to 2017-05-19 17:00:00"
+      },
+      {
+        "title": "Bioinformatics for Principal Investigators",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-06-06 12:00:00 to 2017-06-08 16:00:00"
+      },
+      {
+        "title": "Data resources and bioinformatics tools for immunologists",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-06-12 12:00:00 to 2017-06-16 16:30:00"
+      },
+      {
+        "title": "Networks and Pathways",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-05-22 12:00:00 to 2017-05-26 14:00:00"
+      },
+      {
+        "title": "Cancer Genomics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-06-19 12:00:00 to 2017-06-23 16:00:00"
+      },
+      {
+        "title": "Summer School in Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-06-26 12:00:00 to 2017-06-30 16:00:00"
+      },
+      {
+        "title": "In Silico Systems Biology",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-07-09 12:00:00 to 2017-07-14 16:00:00"
+      },
+      {
+        "title": "Metagenomics Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-10-02 09:00:00 to 2017-10-06 16:00:00"
+      },
+      {
+        "title": "Introduction to Next Generation Sequencing (October)",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-10-09 12:00:00 to 2017-10-12 16:00:00"
+      },
+      {
+        "title": "Structural Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-10-23 12:00:00 to 2017-10-27 16:00:00"
+      },
+      {
+        "title": "Ensembl Browser workshop, Vancouver, 23rd-24th October 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University of British Columbia</div></div><div class=\"addressfield-container-inline locality-block country-CA\"><span class=\"locality\">Vancouver</span>, <span class=\"state\">BC</span> <span class=\"postal-code\">V6T 1Z4</span></div><span class=\"country\">Canada</span>",
+        "dates": "2016-10-23 09:00:00 to 2016-10-24 17:00:00"
+      },
+      {
+        "title": "Analysis of High-Throughput Sequencing Data",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-11-06 12:00:00 to 2017-11-10 16:30:00"
+      },
+      {
+        "title": "Proteomics Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-07-16 09:00:00 to 2017-07-21 16:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop - Cambridge June 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-06-22 00:00:00"
+      },
+      {
+        "title": "Addressing the skills gaps in research infrastructure management and leadership ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-02-16 12:00:00 to 2016-02-17 12:30:00"
+      },
+      {
+        "title": "Translational Bioinformatics Workshop 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Guy’s Hospital</div><div class=\"premise\">Great Maze Pond</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">London</div> <div class=\"postal-code\">SE1 9RT</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "51.504773400000",
+        "long": "-0.089044600000",
+        "dates": "2016-02-22 09:00:00 to 2016-02-26 17:00:00"
+      },
+      {
+        "title": "Human and Vertebrate Genomics: Bioinformatics Tools and Resources, Bangkok",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">999 Phuttamonthon 4 Road</div></div><div class=\"addressfield-container-inline locality-block country-TH\"><span class=\"locality\">Bangkok</span><div class=\"clearfix\"></div> <span class=\"state\">Salaya</span> <span class=\"postal-code\">73170</span></div><span class=\"country\">Thailand</span>",
+        "lat": "13.720413000000",
+        "long": "100.330197300000",
+        "dates": "2016-02-07 00:00:00 to 2016-02-12 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop IV – Cambridge, Jan 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2016-01-19 15:00:00"
+      },
+      {
+        "title": "Ensembl browser workshop – Sinica 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">128 Academia Road Sec. 2</div></div><div class=\"addressfield-container-inline locality-block country-TW\"><span class=\"locality\">Nankang</span> <span class=\"state\">TPE</span> <span class=\"postal-code\">115</span></div><span class=\"country\">Taiwan</span>",
+        "lat": "25.031234700000",
+        "long": "121.611194900000",
+        "dates": "2016-02-22 09:00:00 to 2016-02-22 12:00:00"
+      },
+      {
+        "title": "Ensembl browser workshop – NCHC 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">No. 7, R&D 6th Rd</div><div class=\"premise\">Hsinchu Science Park</div></div><div class=\"addressfield-container-inline locality-block country-TW\"><span class=\"locality\">Hsinchu</span> <span class=\"state\">HSZ</span> <span class=\"postal-code\">30076</span></div><span class=\"country\">Taiwan</span>",
+        "dates": "2016-02-23 09:00:00 to 2016-02-23 16:30:00"
+      },
+      {
+        "title": "Ensembl browser workshop – Erasmus MC 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Erasmus MC</div><div class=\"premise\">'s-Gravendijkwal 230</div></div><div class=\"addressfield-container-inline locality-block country-NL\"><span class=\"postal-code\">3015 CE</span> <span class=\"locality\">Rotterdam</span></div><span class=\"country\">Netherlands</span>",
+        "lat": "51.911931800000",
+        "long": "4.463803700000",
+        "dates": "2016-03-22 13:00:00 to 2016-03-23 13:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – Queen Mary University of London Jan 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Charterhouse Square</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">London</div> <div class=\"postal-code\">EC1M 6BQ</div></div><span class=\"country\">United Kingdom</span>",
+        "dates": "2016-01-18 09:30:00 to 2016-01-18 11:30:00"
+      },
+      {
+        "title": "Ensembl API and gene annotation workshop – NCHC 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">No. 7, R&D 6th Rd</div><div class=\"premise\">Hsinchu Science Park</div></div><div class=\"addressfield-container-inline locality-block country-TW\"><span class=\"locality\">Hsinchu</span> <span class=\"state\">HSZ</span> <span class=\"postal-code\">30076</span></div><span class=\"country\">Taiwan</span>",
+        "dates": "2016-02-24 09:00:00 to 2016-02-26 16:30:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – Sea Lice Research Centre, 12th November",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Department of Biology, UiB</div><div class=\"premise\">Postboks 7803</div></div><div class=\"addressfield-container-inline locality-block country-NO\"><span class=\"postal-code\">5020</span> <span class=\"locality\">Bergen</span></div><span class=\"country\">Norway</span>",
+        "dates": "2015-11-12 00:00:00"
+      },
+      {
+        "title": "Transcriptomics Data and Tools",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-12-15 09:30:00 to 2015-12-15 17:00:00"
+      },
+      {
+        "title": "Introduction to Ontologies ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-11-04 09:30:00 to 2015-11-04 17:00:00"
+      },
+      {
+        "title": "MiMS / NDPIA Bioinformatics Workshop - Umea, Sweden",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">MIT-Huset</div></div><div class=\"addressfield-container-inline locality-block country-SE\"><span class=\"postal-code\">901 87</span> <span class=\"locality\">Umea</span></div><span class=\"country\">Sweden</span>",
+        "lat": "63.820573000000",
+        "long": "20.307692700000",
+        "dates": "2015-11-10 08:45:00 to 2015-11-19 08:45:00"
+      },
+      {
+        "title": "Advanced RNA-Seq and ChiP-Seq Data Analysis 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-04-18 00:00:00 to 2016-04-21 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop - Southampton, Oct 2015 ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Tremona Road</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Southampton</div> <div class=\"postal-code\">SO16 6YD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "50.930844700000",
+        "long": "-1.433559900000",
+        "dates": "2015-10-13 00:00:00"
+      },
+      {
+        "title": "Ensembl API Workshops, EBI, Jan 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-01-25 09:30:00 to 2016-01-28 17:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – Nottingham, Jan 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University Park</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Nottingham</div> <div class=\"postal-code\">NG7 2RD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.938797700000",
+        "long": "-1.203307500000",
+        "dates": "2016-01-18 13:00:00 to 2016-01-19 13:00:00"
+      },
+      {
+        "title": "PRIDE: Introduction to EMBL-EBI Resources & MS Proteomics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">21 Lower Kent Ridge Rd</div></div><div class=\"addressfield-container-inline locality-block country-SG\"><span class=\"postal-code\">119077</span></div><span class=\"country\">Singapore</span>",
+        "lat": "1.297134200000",
+        "long": "103.777756700000",
+        "dates": "2015-11-18 09:00:00 to 2015-11-19 17:00:00"
+      },
+      {
+        "title": "Ensembl Browser workshop, Cambridge, Nov 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-11-27 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop - Southampton, Nov 2015 ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Tremona Road</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Southampton</div> <div class=\"postal-code\">SO16 6YD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "50.930844700000",
+        "long": "-1.433559900000",
+        "dates": "2015-11-13 00:00:00"
+      },
+      {
+        "title": "Accessing Epigenomes with Ensembl, Hinxton, Nov 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Hinxton</div> <div class=\"postal-code\">CB10 1SA, UK</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.078533300000",
+        "long": "0.186134900000",
+        "dates": "2015-11-03 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser workshop, Norwich, Oct 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Norwich Research Park</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Norwich</div> <div class=\"postal-code\">NR4 7UH</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.624732900000",
+        "long": "1.224709400000",
+        "dates": "2015-10-20 00:00:00 to 2015-10-22 00:00:00"
+      },
+      {
+        "title": "NGS data analysis course, Pontificia Universidad Javeriana, Bogota, November 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Carrera 7 No. 40</div></div><div class=\"addressfield-container-inline locality-block country-CO\"><span class=\"locality\">Bogota</span></div><span class=\"country\">Colombia</span>",
+        "lat": "4.771360700000",
+        "long": "-74.027337000000",
+        "dates": "2015-11-23 16:15:00 to 2015-11-24 16:15:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – Cambridge March 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2016-03-14 09:30:00"
+      },
+      {
+        "title": "Bioinformatics resources for exploring disease related data",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-12-03 09:30:00 to 2015-12-03 16:30:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop I – Cambridge, Jan 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2016-01-15 13:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop II – Cambridge, Jan 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2016-01-15 15:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop III – Cambridge, Jan 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2016-01-19 13:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – EMBL-EBI 30th Sept 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-09-30 00:00:00"
+      },
+      {
+        "title": "Exploring Protein Sequence and Functional Information with UniProt",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Downing Site</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB2 3AR</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.202779800000",
+        "long": "0.123459400000",
+        "dates": "2015-10-28 13:30:00 to 2015-10-28 17:00:00"
+      },
+      {
+        "title": "Exploiting Metagenomics Approaches in Life Science Research",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-12-01 00:00:00 to 2015-12-03 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – Jackson Labs 5th October 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Jackson Labs</div></div><div class=\"addressfield-container-inline locality-block country-US\"><span class=\"locality\">Bar Harbor</span>, <span class=\"state\">MA</span> <span class=\"postal-code\">04609</span></div><span class=\"country\">United States</span>",
+        "lat": "44.387577300000",
+        "long": "-68.203973900000",
+        "dates": "2015-10-05 00:00:00"
+      },
+      {
+        "title": "Ensembl Bite sized – May 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-05-18 12:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop – University of Utah 13th Oct 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">University of Utah</div></div><div class=\"addressfield-container-inline locality-block country-US\"><span class=\"locality\">Salt Lake City</span>, <span class=\"state\">UT</span> <span class=\"postal-code\">84112</span></div><span class=\"country\">United States</span>",
+        "lat": "40.765220100000",
+        "long": "-111.841953600000",
+        "dates": "2015-10-13 00:00:00"
+      },
+      {
+        "title": "Ensembl Browser Workshop - Southampton, March 2016 ",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Tremona Road</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Southampton</div> <div class=\"postal-code\">SO16 6YD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "50.930844700000",
+        "long": "-1.433559900000",
+        "dates": "2016-03-23 00:00:00"
+      },
+      {
+        "title": "Ensembl API workshops, EBI, September 2015",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2015-09-14 00:00:00 to 2015-09-17 00:00:00"
+      },
+      {
+        "title": "EMBO Practical Course on Computational Molecular Evolution",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">HCMR</div></div><div class=\"addressfield-container-inline locality-block country-GR\"><span class=\"postal-code\">46,7 km, 19013</span> <span class=\"locality\">Heraklion</span></div><span class=\"country\">Greece</span>",
+        "lat": "39.840094100000",
+        "long": "-75.370366200000",
+        "dates": "2016-05-08 00:00:00 to 2016-05-19 00:00:00"
+      },
+      {
+        "title": "Ensembl Bite sized – November 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-11-30 12:00:00"
+      },
+      {
+        "title": "Ensembl Bite sized – Gene Regulation March 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-03-02 12:00:00"
+      },
+      {
+        "title": "Ensembl Bite sized – September 2016",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-09-21 12:00:00"
+      },
+      {
+        "title": "Exploring genomic variation with high throughput sequencing data",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2016-11-28 00:00:00 to 2016-12-01 00:00:00"
+      },
+      {
+        "title": "Joint EMBL-EBI/Wellcome Trust Summer School in Bioinformatics",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2013-06-10 00:00:00"
+      },
+      {
+        "title": "Uber Workshop blablabla",
+        "address": "<div class=\"street-block\"><div class=\"thoroughfare\">Wellcome Genome Campus</div><div class=\"premise\">Hinxton</div></div><div class=\"addressfield-container locality-block country-GB\"><div class=\"locality\">Cambridge</div> <div class=\"postal-code\">CB10 1SD</div></div><span class=\"country\">United Kingdom</span>",
+        "lat": "52.080033000000",
+        "long": "0.186338000000",
+        "dates": "2017-11-01 09:00:00 to 2017-11-02 16:30:00"
+      }
+    ]
+  }
+}
