@@ -33,19 +33,7 @@ if ((passedParamDebugMetrics != 'false') && (passedParamDebugMetrics != undefine
   debug = true;
 }
 
-// show sunrise and sunset
-// http://joergdietrich.github.io/Leaflet.Terminator/
-var daynightoverlay = L.terminator({className:'daynightoverlay'});
-map.setView([30, daynightoverlay.getLatLngs()[0][700]['lng']], 2);
-// map.setView([30, 10], 3);
-daynightoverlay.addTo(map);
-
-setInterval(function(){updateTerminator(daynightoverlay)}, 12000);
-function updateTerminator(t) {
-  var t2 = L.terminator();
-  t.setLatLngs(t2.getLatLngs());
-  t.redraw();
-}
+map.setView([30, 10], 2);
 
 L.tileLayer(
   'https://api.mapbox.com/styles/v1/khawkinsebi/cio2mav7q0018c2nk2vvg8xgt/tiles/{z}/{x}/{y}?access_token=' + L.mapbox.accessToken, {
