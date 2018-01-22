@@ -71,7 +71,7 @@ function newMarkerClusterGroup(clusterColors,targetClusterCSSClass,clusterPopUpH
       var factoredSize = clusterSizeFactor(cluster.getChildCount());
       return markerIcon = new L.DivIcon({
         iconSize: [factoredSize, factoredSize],
-        html: '<div class="' + targetClusterCSSClass + ' ' + sizeClass + '" style="border-radius:'+ factoredSize + 'px; line-height:'+ factoredSize + 'px; border: 1px solid rgb(202,210,211); ">' + numberToShow + '</div>'
+        html: '<div class="' + targetClusterCSSClass + ' ' + sizeClass + '" style="border-radius:'+ factoredSize + 'px; line-height:'+ factoredSize + 'px; border: 1px solid rgba(168,200,19,.4); ">' + numberToShow + '</div>'
       });
 
     }
@@ -98,7 +98,7 @@ function processData(fetchedData) {
       // var title = 'tesdt';
       var markerNode = L.circleMarker(new L.LatLng(a[1], a[0]), {
         stroke: true,
-        color: 'rgb(202,210,211)',
+        color: 'rgba(168,200,19,.9)',
         weight: '1',
         // fillColor: targetClusterGroupColor,
         fillOpacity: '.4'
