@@ -52,7 +52,7 @@ function newMarkerClusterGroup(clusterColors,targetClusterCSSClass,clusterPopUpH
     showCoverageOnHover: false,
     zoomToBoundsOnClick: true,
     spiderfyOnMaxZoom: true,
-    maxClusterRadius: 20,
+    maxClusterRadius: 3,
     // chunkedLoading: true,
     // chunkDelay: 5,
     // chunkInterval: 10,
@@ -99,12 +99,24 @@ function processData(fetchedData) {
       // var title = 'tesdt';
       var markerNode = L.circleMarker(new L.LatLng(a[1], a[0]), {
         stroke: true,
-        color: 'rgba(168,200,19,.9)',
+        color: 'rgba(0,0,0,1)',
+        weight: 2,
+        fillColor: 'rgba(255,255,255,1)',
         weight: '1',
         // fillColor: targetClusterGroupColor,
-        fillOpacity: '.4'
+        fillOpacity: '1'
       });
-      markerNode.setRadius(5);
+
+
+      var popup = L.popup()
+          .setContent('<p>'+marker.feature.properties.name + '</p>');
+      markerNode.bindPopup(popup).openPopup();
+
+      markerNode.on('mouseover', function(e){
+          markerNode.openPopup();
+      });
+
+      markerNode.setRadius(8);
       // markerNode.bindPopup(title);
       // group the layers by data source
       var targetLayer = marker.feature.properties['target-layer'];
@@ -136,15 +148,8 @@ function removeAndAddNodes(targetClusterGroup,queueToAdd) {
         return false; // exit if the location didn't geocode
       }
 
-      // console.log('process',nodeToProcess);
-
       // add dot to map
       targetClusterGroup.addLayer(nodeToProcess);
-      // Performance note:
-      // If things get sluggish, we should consider using the plural function "addLayers"
-      // view-source:http://leaflet.github.io/Leaflet.markercluster/example/marker-clustering-realworld.50000.html
-      // We could also group the source CSV to say how many occurances of each lat/long there is
-
     }
   }
 
@@ -153,9 +158,8 @@ function removeAndAddNodes(targetClusterGroup,queueToAdd) {
 }
 
 // setup colours and markercluster objects
-var counter = 0;
-var markerClustersEBIColor = 'rgba(168,200,19,.8)';
-var markerClustersEBI = newMarkerClusterGroup(markerClustersEBIColor,'markerClustersEBI','<span style="color:' + markerClustersEBIColor + '">Click to zoom</span>');
+var markerClustersEBIColor = 'rgba(255,255,255,1)';
+var markerClustersEBI = newMarkerClusterGroup(markerClustersEBIColor,'markerClustersEBI','<span style="">Click to zoom</span>');
 
 map.addLayer(markerClustersEBI);
 
@@ -194,9 +198,7 @@ function createLegend () {
 
 }
 
-
 createLegend();
-
 
 $.ajax({
   type: "GET",
