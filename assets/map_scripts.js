@@ -38,7 +38,7 @@ L.tileLayer(
       attribution: '© <a href="//www.ebi.ac.uk/about">EMBL-EBI</a> © <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
-map.options.maxZoom = 6;
+map.options.maxZoom = 10;
 map.options.minZoom = 1;
 
 var clusterSizeFactor = function(passedClusterSize) { // how we size the clusters
@@ -50,12 +50,13 @@ function newMarkerClusterGroup(clusterColors,targetClusterCSSClass,clusterPopUpH
   var clusterName = new L.MarkerClusterGroup({
     spiderfyOnMaxZoom: false,
     showCoverageOnHover: false,
-    zoomToBoundsOnClick: false,
+    zoomToBoundsOnClick: true,
+    spiderfyOnMaxZoom: true,
     maxClusterRadius: 20,
     // chunkedLoading: true,
     // chunkDelay: 5,
     // chunkInterval: 10,
-    // animate: true,
+    animate: true,
     // animateAddingMarkers: true,
     iconCreateFunction: function(cluster) {
       var numberToShow = '',
