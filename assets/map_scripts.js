@@ -146,26 +146,11 @@ function removeAndAddNodes(targetClusterGroup,queueToAdd) {
       // view-source:http://leaflet.github.io/Leaflet.markercluster/example/marker-clustering-realworld.50000.html
       // We could also group the source CSV to say how many occurances of each lat/long there is
 
-      // schedule marker removal
-      setTimeout(function() {
-        scheduledNodeRemoval(targetClusterGroup,nodeToProcess);
-      }, lifeSpan * 2);
     }
   }
 
   // run the queue
   var addNodesVar = window.setInterval(addNodes, 10);
-}
-
-function scheduledNodeRemoval(targetClusterGroup,targetNode) {
-  if (mainLoopPause === false) {
-    targetClusterGroup.removeLayer(targetNode);
-  } else {
-    // wait XXms and check again
-    setTimeout(function() {
-      scheduledNodeRemoval(targetClusterGroup,targetNode);
-    }, lifeSpan);
-  }
 }
 
 // loop to keep clusters updating
@@ -219,17 +204,10 @@ function runClusters() {
 
 // setup colours and markercluster objects
 var counter = 0;
-var markerClustersEBIColor = 'rgba(168,200,19,.8)',
-    markerClustersPortalsColor = 'rgba(235,98,9,.8)',
-    markerClustersUniprotColor = 'rgba(29,92,116,.8)';
-// var markerClustersTemporary = newMarkerClusterGroup(markerClustersEBIColor); // we use for data processing only
-var markerClustersEBI = newMarkerClusterGroup(markerClustersEBIColor,'markerClustersEBI','<span style="color:' + markerClustersEBIColor + '">EMBL-EBI request</span>'),
-    markerClustersPortals = newMarkerClusterGroup(markerClustersPortalsColor,'markerClustersPortals','<span style="color:' + markerClustersPortalsColor + '">Portal request</span>'),
-    markerClustersUniprot = newMarkerClusterGroup(markerClustersUniprotColor,'markerClustersUniprot','<span style="color:' + markerClustersUniprotColor + '">UniProt request</span>');
+var markerClustersEBIColor = 'rgba(168,200,19,.8)';
+var markerClustersEBI = newMarkerClusterGroup(markerClustersEBIColor,'markerClustersEBI','<span style="color:' + markerClustersEBIColor + '">EMBL-EBI request</span>');
 
 map.addLayer(markerClustersEBI);
-map.addLayer(markerClustersPortals);
-map.addLayer(markerClustersUniprot);
 
 var lifeSpan = 600000; // how quickly we fetch data, and how long each dot lasts
 var mainLoopPause = false; // functionality for a "pause button"
@@ -243,9 +221,6 @@ runClusters();
 function createLegend () {
   var legendHtml = '<h4>Request type</h4>' +
       '<div class="markerClustersEBI"><a href="#" class="display-toggle ebi"><span class="legend-icon"></span>EMBL-EBI</a></div>' +
-      '<div class="markerClustersPortals"><a href="#" class="display-toggle portals"><span class="legend-icon"></span>Portals</a></div>' +
-      '<div class="markerClustersUniprot"><a href="#" class="display-toggle uniprot"><span class="legend-icon"></span>Uniprot</a></div>' +
-      '<div><a href="#" class="display-toggle unified"><span class="legend-icon icon icon-functional" data-icon="/"></span>Use only one colour</a></div>' +
       '<div><a href="#" class="pause"><span class="icon icon-functional" data-icon="o"></span>Pause</a></div>';
   $('.legend').html(legendHtml);
 
@@ -281,66 +256,7 @@ function createLegend () {
     if ($(this).hasClass('uniprot')) { invokeLegendIcon('uniprot'); }
   });
 
-  // parse a passed param
-  if (passedParam != undefined) {
-    passedParam = passedParam.split('&')[0]; // drop anything after &
-    // now we disable all portals
-    invokeLegendIcon('unified');
-    invokeLegendIcon('portals');
-    invokeLegendIcon('uniprot');
-    invokeLegendIcon('ebi');
-
-    // enable jsut the one the user wants
-    if (passedParam != 'distinct') {
-      invokeLegendIcon(passedParam);
-    }
-
-    if (passedParam == 'distinct') {
-      // we've already turned off unified, show just show all protals
-      invokeLegendIcon('portals');
-      invokeLegendIcon('uniprot');
-      invokeLegendIcon('ebi');
-    }
-  }
-
 }
 
 
 createLegend();
-
-function handleVisibilityChange() {
-  if (document[hidden]) {
-    // only pause if the tab is playing
-    if (mainLoopPause === false) { $('a.pause').click(); }
-    // $('#pause-message').remove();
-    // $('body').append('<div id="pause-message" class="message modal">Noticed you switched away, we\'ll resume the map</div>');
-  } else {
-    $('a.pause').click();
-    // $('#pause-message').hide(1500);
-  }
-}
-
-// Bonus: on IE10+ (and other modern browsers), pause the map when the tab doesn't show
-// https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API
-
-// Set the name of the hidden property and the change event for visibility
-var hidden, visibilityChange;
-if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and later support
-  hidden = "hidden";
-  visibilityChange = "visibilitychange";
-} else if (typeof document.msHidden !== "undefined") {
-  hidden = "msHidden";
-  visibilityChange = "msvisibilitychange";
-} else if (typeof document.webkitHidden !== "undefined") {
-  hidden = "webkitHidden";
-  visibilityChange = "webkitvisibilitychange";
-}
-
-
-// Warn if the browser doesn't support addEventListener or the Page Visibility API
-if (typeof document.addEventListener === "undefined" || typeof document[hidden] === "undefined") {
-  // console.log("This demo requires a browser, such as Google Chrome or Firefox, that supports the Page Visibility API.");
-} else {
-  // Handle page visibility change
-  document.addEventListener(visibilityChange, handleVisibilityChange, false);
-}
