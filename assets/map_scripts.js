@@ -126,8 +126,6 @@ function removeAndAddNodes(targetClusterGroup,queueToAdd) {
   targetClusterGroup = window[targetClusterGroup]; // reattach passed string to mapbox layer
 
   function addNodes() {
-    if (mainLoopPause === true) return;
-
     if (queueToAdd.length == 0) {
       clearInterval(addNodesVar); // we're done
     } else {
@@ -153,69 +151,16 @@ function removeAndAddNodes(targetClusterGroup,queueToAdd) {
   var addNodesVar = window.setInterval(addNodes, 10);
 }
 
-// loop to keep clusters updating
-function runClusters() {
-  if (debug) { console.log(window.performance.memory); }
-
-  // are we paused?
-  if (mainLoopPause === true) return;
-
-  $.ajax({
-    type: "GET",
-    url: 'assets/sample_data.kml',
-    dataType: "text",
-    timeout:3000,
-    success: function(data, textStatus, request) {
-
-      // fake it til you make it
-      // Curerntly we can't get "real" KML out, so we tweak some things...
-      var re = /<Point>/gi;
-      data = data.replace(re, '<Point><coordinates>');
-      re = /<\/Point>/gi;
-      data = data.replace(re, '</coordinates></Point>');
-
-      // inch closer to actual time
-      window.clearInterval(mainLoop);
-      mainLoopPause = true;
-      setTimeout(function() {
-        mainLoop = window.setInterval(runClusters, lifeSpan); // schedule future updates
-        mainLoopPause = false;
-      }, 500 );
-
-      data = omnivore.kml.parse(data);
-      if (debug) console.log(data._layers);
-      processData(data);
-    },
-    error: function(jqXHR, textStatus){
-      if(textStatus === 'timeout') {
-        // console.log('Unable to get data source in a timely fashion',jqXHR);
-        if (Raven.isSetup()) {
-          Raven.captureMessage('Unable to get data source in a timely fashion', {
-            level: 'warning' // one of 'info', 'warning', or 'error'
-          });
-          Raven.captureException(jqXHR);
-        }
-      }
-    }
-  });
-
-
-}
-
 // setup colours and markercluster objects
 var counter = 0;
 var markerClustersEBIColor = 'rgba(168,200,19,.8)';
-var markerClustersEBI = newMarkerClusterGroup(markerClustersEBIColor,'markerClustersEBI','<span style="color:' + markerClustersEBIColor + '">EMBL-EBI request</span>');
+var markerClustersEBI = newMarkerClusterGroup(markerClustersEBIColor,'markerClustersEBI','<span style="color:' + markerClustersEBIColor + '">Click to zoom</span>');
 
 map.addLayer(markerClustersEBI);
 
-var lifeSpan = 600000; // how quickly we fetch data, and how long each dot lasts
-var mainLoopPause = false; // functionality for a "pause button"
-var mainLoop = window.setInterval(runClusters, lifeSpan); // schedule future updates
-
 
 // run the data pull immediately on strap
-runClusters();
+// runClusters();
 
 // legend stuff
 function createLegend () {
@@ -224,16 +169,6 @@ function createLegend () {
       '<div><a href="#" class="pause"><span class="icon icon-functional" data-icon="o"></span>Pause</a></div>';
   $('.legend').html(legendHtml);
 
-  // Pause toggling
-  $('a.pause').on('click',function(){
-    if (mainLoopPause === false) {
-      mainLoopPause = true;
-      $('a.pause').html('<span class="icon icon-functional" data-icon="v"></span>Play');
-    } else {
-      mainLoopPause = false;
-      $('a.pause').html('<span class="icon icon-functional" data-icon="o"></span>Pause');
-    }
-  });
 
   // toggle button state with opacity
   function invokeLegendIcon(request) {
@@ -260,3 +195,30 @@ function createLegend () {
 
 
 createLegend();
+
+
+$.ajax({
+  type: "GET",
+  url: 'assets/sample_data.kml',
+  dataType: "text",
+  timeout:3000,
+  success: function(data, textStatus, request) {
+
+    // fake it til you make it
+    // Curerntly we can't get "real" KML out, so we tweak some things...
+    var re = /<Point>/gi;
+    data = data.replace(re, '<Point><coordinates>');
+    re = /<\/Point>/gi;
+    data = data.replace(re, '</coordinates></Point>');
+
+
+    data = omnivore.kml.parse(data);
+    if (debug) console.log(data._layers);
+    processData(data);
+  },
+  error: function(jqXHR, textStatus){
+    if(textStatus === 'timeout') {
+      // console.log('Unable to get data source in a timely fashion',jqXHR);
+    }
+  }
+});
