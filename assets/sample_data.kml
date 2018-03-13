@@ -794,7 +794,7 @@
   </Placemark>
   <Placemark>
     <name>EMBO Practical Course on Computational Molecular Evolution (Heraklion, Greece)</name>
-    <address>&lt;div class="street-block"&gt;&lt;div class="thoroughfare"&gt;HCMR&lt;/div&gt;&lt;/div&gt;&lt;div class="addressfield-container-inline locality-block country-GR"&gt;&lt;span class="postal-code"&gt;46,7 km, 19013&lt;/span&gt; &lt;span class="locality"&gt;Heraklion&lt;/span&gt;&lt;/div&gt;&lt;span class="country"&gt;Greece&lt;/span&gtgt;</address>
+    <address>&lt;div class="street-block"&gt;&lt;div class="thoroughfare"&gt;HCMR&lt;/div&gt;&lt;/div&gt;&lt;div class="addressfield-container-inline locality-block country-GR"&gt;&lt;span class="postal-code"&gt;46,7 km, 19013&lt;/span&gt; &lt;span class="locality"&gt;Heraklion&lt;/span&gt;&lt;/div&gt;&lt;span class="country"&gt;Greece&lt;/span&gt;</address>
     <lat>39.840094100000</lat>
     <long>-75.370366200000</long>
     <dates>2014-05-05 00:00:00 to 2014-05-14 00:00:00</dates>
