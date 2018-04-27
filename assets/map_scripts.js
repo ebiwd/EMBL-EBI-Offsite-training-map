@@ -29,17 +29,22 @@ if ((passedParamDebugMetrics != 'false') && (passedParamDebugMetrics != undefine
 
 map.setView([30, 10], 2);
 
+
 L.tileLayer(
   'https://api.mapbox.com/styles/v1/khawkinsebi/cio2mav7q0018c2nk2vvg8xgt/tiles/{z}/{x}/{y}?access_token=' + L.mapbox.accessToken, {
-      // maxZoom: 6,
-      // minZoom: 3,
+      maxZoom: 10,
+      minZoom: 2,
       tileSize: 512,
       zoomOffset: -1,
       attribution: '© <a href="//www.ebi.ac.uk/about">EMBL-EBI</a> © <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
-map.options.maxZoom = 10;
-map.options.minZoom = 1;
+// fix the map region
+var southWest = L.latLng(-70, -140),
+    northEast = L.latLng(70, 150),
+    bounds = L.latLngBounds(southWest, northEast);
+map.setMaxBounds(bounds);
+map.scrollWheelZoom.disable();
 
 var clusterSizeFactor = function(passedClusterSize) { // how we size the clusters
   pixelIncrease = 20; // constant to ensure a minimum size
