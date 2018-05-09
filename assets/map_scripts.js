@@ -45,6 +45,8 @@ var southWest = L.latLng(-70, -140),
     bounds = L.latLngBounds(southWest, northEast);
 map.setMaxBounds(bounds);
 map.scrollWheelZoom.disable();
+map.options.maxZoom = 10;
+map.options.minZoom = 2;
 
 var clusterSizeFactor = function(passedClusterSize) { // how we size the clusters
   pixelIncrease = 20; // constant to ensure a minimum size
@@ -77,7 +79,7 @@ function newMarkerClusterGroup(clusterColors,targetClusterCSSClass,clusterPopUpH
       var factoredSize = clusterSizeFactor(cluster.getChildCount());
       return markerIcon = new L.DivIcon({
         iconSize: [factoredSize, factoredSize],
-        html: '<div class="' + targetClusterCSSClass + ' ' + sizeClass + '" style="border-radius:'+ factoredSize + 'px; line-height:'+ factoredSize + 'px; border: 1px solid rgba(168,200,19,.4); ">' + numberToShow + '</div>'
+        html: '<div class="' + targetClusterCSSClass + ' ' + sizeClass + '" style="border-radius:'+ factoredSize + 'px; line-height:'+ factoredSize + 'px; border: 1px solid rgba(255,255,255,.8); ">' + numberToShow + '</div>'
       });
 
     }
@@ -104,9 +106,9 @@ function processData(fetchedData) {
       // var title = 'tesdt';
       var markerNode = L.circleMarker(new L.LatLng(a[1], a[0]), {
         stroke: true,
-        color: 'rgba(0,0,0,1)',
+        color: 'rgba(255,255,255,.8)',
         weight: 2,
-        fillColor: 'rgba(255,255,255,1)',
+        fillColor: 'rgba(233,180,0,.8)',
         weight: '1',
         // fillColor: targetClusterGroupColor,
         fillOpacity: '1'
