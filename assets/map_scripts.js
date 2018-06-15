@@ -209,7 +209,7 @@ createLegend();
 
 $.ajax({
   type: "GET",
-  url: 'assets/sample_data.kml',
+  url: 'https://www.ebi.ac.uk/api/v1/offsite-training-map.xml',
   dataType: "text",
   timeout:3000,
   success: function(data, textStatus, request) {
