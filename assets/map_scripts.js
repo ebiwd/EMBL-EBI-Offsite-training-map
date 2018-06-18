@@ -4,6 +4,7 @@
 // http://wwwdev.ebi.ac.uk/ebiwebtrafficmap/kmlvector.html
 
 var loadTimestamp = Date.now(); // capture time at page load
+var parsedXMLtoJson; // we'll translate the XML to JSON
 
 L.mapbox.accessToken = 'pk.eyJ1Ijoia2hhd2tpbnNlYmkiLCJhIjoiY2ludTZ2M3ltMDBtNXczbTJueW85ZmJjNyJ9.u6SIfnrYvGe6WFP3fOtaVQ';
 
@@ -99,7 +100,10 @@ function newMarkerClusterGroup(clusterColors,targetClusterCSSClass,clusterPopUpH
 function processData(fetchedData) {
   var markerClustersTemporary = [];
 
+  var counter = -1;
+
   fetchedData.eachLayer( function(marker) {
+    counter++;
     if (typeof marker.feature !== 'undefined') {
       // add to marker group
       var a = marker.feature.geometry.coordinates;
@@ -115,8 +119,12 @@ function processData(fetchedData) {
       });
 
 
+
+      // console.log(parsedXMLtoJson.kml.Placemark[counter])
+      var constructedLink = 'http://www.ebi.ac.uk/training/events/' + parsedXMLtoJson.kml.Placemark[counter].year + '/' + parsedXMLtoJson.kml.Placemark[counter].path;
+
       var popup = L.popup()
-          .setContent('<p>'+marker.feature.properties.name + '</p>');
+          .setContent('<p>'+marker.feature.properties.name + '</p><p><a href="'+constructedLink+'" class="readmore">View the training page</a></p>');
       markerNode.bindPopup(popup).openPopup();
 
       markerNode.on('mouseover', function(e){
@@ -214,13 +222,16 @@ $.ajax({
   timeout:3000,
   success: function(data, textStatus, request) {
 
+    var parser = new DOMParser();
+    parsedXMLtoJson = parser.parseFromString(data,"text/xml");
+    parsedXMLtoJson = xmlToJson(parsedXMLtoJson);
+
     // fake it til you make it
     // Curerntly we can't get "real" KML out, so we tweak some things...
     var re = /<Point>/gi;
     data = data.replace(re, '<Point><coordinates>');
     re = /<\/Point>/gi;
     data = data.replace(re, '</coordinates></Point>');
-
 
     data = omnivore.kml.parse(data);
     if (debug) console.log(data._layers);
@@ -232,3 +243,51 @@ $.ajax({
     }
   }
 });
+
+
+// Changes XML to JSON
+// Modified version from here: http://davidwalsh.name/convert-xml-json
+function xmlToJson(xml) {
+
+
+
+	// Create the return object
+	var obj = {};
+
+	if (xml.nodeType == 1) { // element
+		// do attributes
+		if (xml.attributes.length > 0) {
+		obj["@attributes"] = {};
+			for (var j = 0; j < xml.attributes.length; j++) {
+				var attribute = xml.attributes.item(j);
+				obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
+			}
+		}
+	} else if (xml.nodeType == 3) { // text
+		obj = xml.nodeValue;
+	}
+
+	// do children
+	// If just one text node inside
+	if (xml.hasChildNodes() && xml.childNodes.length === 1 && xml.childNodes[0].nodeType === 3) {
+		obj = xml.childNodes[0].nodeValue;
+	}
+	else if (xml.hasChildNodes()) {
+		for(var i = 0; i < xml.childNodes.length; i++) {
+			var item = xml.childNodes.item(i);
+			var nodeName = item.nodeName;
+			if (typeof(obj[nodeName]) == "undefined") {
+				obj[nodeName] = xmlToJson(item);
+			} else {
+				if (typeof(obj[nodeName].push) == "undefined") {
+					var old = obj[nodeName];
+					obj[nodeName] = [];
+					obj[nodeName].push(old);
+				}
+				obj[nodeName].push(xmlToJson(item));
+			}
+		}
+	}
+
+	return obj;
+}
