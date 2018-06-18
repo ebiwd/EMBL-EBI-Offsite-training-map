@@ -124,7 +124,7 @@ function processData(fetchedData) {
       var constructedLink = 'https://www.ebi.ac.uk/training/events/' + parsedXMLtoJson.kml.Placemark[counter].year + '/' + parsedXMLtoJson.kml.Placemark[counter].path;
 
       var popup = L.popup()
-          .setContent('<p>'+marker.feature.properties.name + '</p><p><a href="'+constructedLink+'" class="readmore">View the training page</a></p>');
+          .setContent('<p>'+marker.feature.properties.name + '</p><p><a target="_top" href="'+constructedLink+'" class="readmore">View the training page</a></p>');
       markerNode.bindPopup(popup).openPopup();
 
       markerNode.on('mouseover', function(e){
